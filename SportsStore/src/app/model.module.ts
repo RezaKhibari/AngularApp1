@@ -4,7 +4,8 @@ import { StaticDataSource } from "./static.datasource";
 //import { AppComponent } from './app.Component'
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
-import { ReservationComponent } from '../reservation.component';
+import { ReservationComponent } from './reservation.component';
+import { AppRoutingModule } from './model/app-routing.module';
 
 
 @NgModule({

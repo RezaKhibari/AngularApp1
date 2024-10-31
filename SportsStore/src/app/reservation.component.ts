@@ -1,6 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { Product } from "./model/product.model";
-import { StaticDataSource } from "./model/static.datasource";
+import { StaticDataSource } from "./static.datasource";
 import { ReservationService } from "./reservation.service";
 
 @Component({

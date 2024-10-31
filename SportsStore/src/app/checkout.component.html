@@ -1,0 +1,13 @@
+<h2>Checkout</h2>
+<form (ngSubmit)="submitOrder()">
+  <div>
+    <label>Name</label>
+    <input [(ngModel)]="order.name" name="name">
+  </div>
+  <div>
+    <label>Address</label>
+    <input [(ngModel)]="order.address" name="address">
+  </div>
+  <!-- Add more fields for City, Country -->
+  <button type="submit">Submit Order</button>
+</form>
